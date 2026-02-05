@@ -3,7 +3,7 @@ class demo {
                 String s="welcme to devops";
                 rev="";
                 fro(int i=s.length()-1;i>=0;i--){
-                        rev+=s.length(i);
+                        rev+=s.charAt(i);
         }
                 System.out.println(rev);
         }
